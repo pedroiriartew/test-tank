@@ -22,7 +22,7 @@ public class PlayerObject
     {
         if (!character)
         {
-            character = BoltNetwork.Instantiate(BoltPrefabs.Cube, RandomPosition(), Quaternion.identity);
+            character = BoltNetwork.Instantiate(BoltPrefabs.Capsule, RandomPosition(), Quaternion.identity);
 
             if (IsServer)
             {
@@ -40,8 +40,8 @@ public class PlayerObject
 
     private Vector3 RandomPosition()
     {
-        float x = Random.Range(-32f, +32f);
-        float z = Random.Range(-32f, +32f);
-        return new Vector3(x, 0f, z);
+        float x = Random.Range(-2f, +2f);
+        float z = Random.Range(-2f, +2f);
+        return new Vector3(x, 10f, z);
     }
 }

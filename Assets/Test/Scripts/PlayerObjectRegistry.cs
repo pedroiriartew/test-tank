@@ -64,7 +64,7 @@ public class PlayerObjectRegistry
     // utility function which lets us pass in a
     // BoltConnection object (even a null) and have
     // it return the proper player object for it.
-    public static PlayerObject GetTutorialPlayer(BoltConnection connection)
+    public static PlayerObject GetPlayer(BoltConnection connection)
     {
         if (connection == null)
         {

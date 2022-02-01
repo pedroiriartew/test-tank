@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2020210967350051689}
   - component: {fileID: 7650725658134014388}
   - component: {fileID: 2959433682661851887}
-  - component: {fileID: -6918159234877108981}
   - component: {fileID: 6782579834597237441}
   - component: {fileID: 7431345425804824616}
+  - component: {fileID: 1401633493221195508}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -117,35 +117,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.03, z: 0}
---- !u!114 &-6918159234877108981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070993485569500502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 155943207, guid: 5b00bf8b25851d440940a40ec23344f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _sceneGuid: 
-  _serializerGuid: a0535e43-d475-4aab-8ceb-7d45a37e90b5
-  _prefabId: 1
-  _updateRate: 1
-  _autoFreezeProxyFrames: 0
-  _clientPredicted: 1
-  _allowInstantiateOnClient: 1
-  _persistThroughSceneLoads: 0
-  _sceneObjectDestroyOnDetach: 1
-  _sceneObjectAutoAttach: 1
-  _alwaysProxy: 0
-  _detachOnDisable: 1
-  _allowFirstReplicationWhenFrozen: 0
-  _autoRemoveChildEntities: 0
-  _entityBehaviourQueryOption: 0
-  _entityPriorityCalculatorQueryOption: 1
-  _entityReplicationFilterQueryOption: 1
 --- !u!114 &6782579834597237441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,3 +141,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96df8839f34def742a37095f06b3ec9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1401633493221195508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070993485569500502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 155943207, guid: 5b00bf8b25851d440940a40ec23344f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneGuid: 
+  _serializerGuid: a0535e43-d475-4aab-8ceb-7d45a37e90b5
+  _prefabId: 2
+  _updateRate: 1
+  _autoFreezeProxyFrames: 0
+  _clientPredicted: 1
+  _allowInstantiateOnClient: 1
+  _persistThroughSceneLoads: 0
+  _sceneObjectDestroyOnDetach: 1
+  _sceneObjectAutoAttach: 1
+  _alwaysProxy: 0
+  _detachOnDisable: 1
+  _allowFirstReplicationWhenFrozen: 0
+  _autoRemoveChildEntities: 0
+  _entityBehaviourQueryOption: 0
+  _entityPriorityCalculatorQueryOption: 1
+  _entityReplicationFilterQueryOption: 1

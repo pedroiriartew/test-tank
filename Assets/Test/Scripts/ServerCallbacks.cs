@@ -23,7 +23,7 @@ public class ServerCallbacks : GlobalEventListener
 
     public override void SceneLoadRemoteDone(BoltConnection connection, IProtocolToken token)
     {
-        PlayerObjectRegistry.GetTutorialPlayer(connection).Spawn();
+        PlayerObjectRegistry.GetPlayer(connection).Spawn();
     }
 
 }

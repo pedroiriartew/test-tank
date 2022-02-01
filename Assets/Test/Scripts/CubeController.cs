@@ -59,10 +59,13 @@ public class CubeController : EntityBehaviour<ICubeState>
 
         if (resetState)
         {
+            Debug.Log("Reset state");
             _cb.SetPosition(cmd.Result.Position);
         }
         else
         {
+            Debug.Log("applying movement");
+
             // apply movement (this runs on both server and client)
             Vector3 position = _cb.Move(cmd.Input.Forward, cmd.Input.Backward, cmd.Input.Left, cmd.Input.Right);
 
