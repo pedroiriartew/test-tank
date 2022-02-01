@@ -1,2 +1,2 @@
 # test-tank
-Photon bolt networking test
+Small project used to learn Photon Bolt basic and advanced concepts.
